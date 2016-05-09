@@ -33,9 +33,6 @@
 		23593D6B1CDF9292007686E9 /* dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D671CDF9292007686E9 /* dog.mp4 */; };
 		23593D6C1CDF9292007686E9 /* dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D671CDF9292007686E9 /* dog.mp4 */; };
 		23593D6D1CDF9292007686E9 /* dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D671CDF9292007686E9 /* dog.mp4 */; };
-		23593D6F1CDF943D007686E9 /* hankon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D6E1CDF943D007686E9 /* hankon.mp4 */; };
-		23593D701CDF943D007686E9 /* hankon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D6E1CDF943D007686E9 /* hankon.mp4 */; };
-		23593D711CDF943D007686E9 /* hankon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D6E1CDF943D007686E9 /* hankon.mp4 */; };
 		23593D731CDF9498007686E9 /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D721CDF9498007686E9 /* spotifyVideo.mp4 */; };
 		23593D741CDF9498007686E9 /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D721CDF9498007686E9 /* spotifyVideo.mp4 */; };
 		23593D751CDF9498007686E9 /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D721CDF9498007686E9 /* spotifyVideo.mp4 */; };
@@ -81,7 +78,6 @@
 		23593D641CDF8631007686E9 /* CustomLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLoginViewController.swift; path = ViewController/CustomLoginViewController.swift; sourceTree = "<group>"; };
 		23593D661CDF9292007686E9 /* cat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.mp4; sourceTree = "<group>"; };
 		23593D671CDF9292007686E9 /* dog.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog.mp4; sourceTree = "<group>"; };
-		23593D6E1CDF943D007686E9 /* hankon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hankon.mp4; sourceTree = "<group>"; };
 		23593D721CDF9498007686E9 /* spotifyVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotifyVideo.mp4; sourceTree = "<group>"; };
 		23593D761CDF95F2007686E9 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Quick.framework; path = "/Users/Ayi/Library/Developer/Xcode/DerivedData/app-epzkvgenhvvikuevpnchfknfrxla/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<absolute>"; };
 		91166CE726EADF5D3AA25B48 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +152,6 @@
 				23593D2A1CDF5824007686E9 /* LaunchScreen.storyboard */,
 				23593D2D1CDF5824007686E9 /* Info.plist */,
 				23593D661CDF9292007686E9 /* cat.mp4 */,
-				23593D6E1CDF943D007686E9 /* hankon.mp4 */,
 				23593D721CDF9498007686E9 /* spotifyVideo.mp4 */,
 				23593D671CDF9292007686E9 /* dog.mp4 */,
 				23593D4F1CDF58BC007686E9 /* framework */,
@@ -319,7 +314,6 @@
 				23593D6B1CDF9292007686E9 /* dog.mp4 in Resources */,
 				23593D5D1CDF5D07007686E9 /* Login.storyboard in Resources */,
 				23593D2C1CDF5824007686E9 /* LaunchScreen.storyboard in Resources */,
-				23593D6F1CDF943D007686E9 /* hankon.mp4 in Resources */,
 				23593D731CDF9498007686E9 /* spotifyVideo.mp4 in Resources */,
 				23593D291CDF5824007686E9 /* Assets.xcassets in Resources */,
 				23593D271CDF5824007686E9 /* Main.storyboard in Resources */,
@@ -331,7 +325,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23593D701CDF943D007686E9 /* hankon.mp4 in Resources */,
 				23593D6C1CDF9292007686E9 /* dog.mp4 in Resources */,
 				23593D691CDF9292007686E9 /* cat.mp4 in Resources */,
 				23593D5E1CDF5D07007686E9 /* Login.storyboard in Resources */,
@@ -343,7 +336,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23593D711CDF943D007686E9 /* hankon.mp4 in Resources */,
 				23593D6D1CDF9292007686E9 /* dog.mp4 in Resources */,
 				23593D6A1CDF9292007686E9 /* cat.mp4 in Resources */,
 				23593D5F1CDF5D07007686E9 /* Login.storyboard in Resources */,
