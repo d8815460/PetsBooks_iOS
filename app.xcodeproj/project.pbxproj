@@ -14,6 +14,32 @@
 		23593D2C1CDF5824007686E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23593D2A1CDF5824007686E9 /* LaunchScreen.storyboard */; };
 		23593D371CDF5824007686E9 /* appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D361CDF5824007686E9 /* appTests.swift */; };
 		23593D421CDF5824007686E9 /* appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D411CDF5824007686E9 /* appUITests.swift */; };
+		23593D521CDF58CC007686E9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23593D501CDF58CC007686E9 /* Bolts.framework */; };
+		23593D531CDF58CC007686E9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23593D501CDF58CC007686E9 /* Bolts.framework */; };
+		23593D541CDF58CC007686E9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23593D501CDF58CC007686E9 /* Bolts.framework */; };
+		23593D551CDF58CC007686E9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23593D511CDF58CC007686E9 /* Parse.framework */; };
+		23593D561CDF58CC007686E9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23593D511CDF58CC007686E9 /* Parse.framework */; };
+		23593D571CDF58CC007686E9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23593D511CDF58CC007686E9 /* Parse.framework */; };
+		23593D5D1CDF5D07007686E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23593D5C1CDF5D07007686E9 /* Login.storyboard */; };
+		23593D5E1CDF5D07007686E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23593D5C1CDF5D07007686E9 /* Login.storyboard */; };
+		23593D5F1CDF5D07007686E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23593D5C1CDF5D07007686E9 /* Login.storyboard */; };
+		23593D611CDF5D65007686E9 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D601CDF5D65007686E9 /* WellcomeViewController.swift */; };
+		23593D621CDF5D65007686E9 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D601CDF5D65007686E9 /* WellcomeViewController.swift */; };
+		23593D631CDF5D65007686E9 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D601CDF5D65007686E9 /* WellcomeViewController.swift */; };
+		23593D651CDF8631007686E9 /* CustomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D641CDF8631007686E9 /* CustomLoginViewController.swift */; };
+		23593D681CDF9292007686E9 /* cat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D661CDF9292007686E9 /* cat.mp4 */; };
+		23593D691CDF9292007686E9 /* cat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D661CDF9292007686E9 /* cat.mp4 */; };
+		23593D6A1CDF9292007686E9 /* cat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D661CDF9292007686E9 /* cat.mp4 */; };
+		23593D6B1CDF9292007686E9 /* dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D671CDF9292007686E9 /* dog.mp4 */; };
+		23593D6C1CDF9292007686E9 /* dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D671CDF9292007686E9 /* dog.mp4 */; };
+		23593D6D1CDF9292007686E9 /* dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D671CDF9292007686E9 /* dog.mp4 */; };
+		23593D6F1CDF943D007686E9 /* hankon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D6E1CDF943D007686E9 /* hankon.mp4 */; };
+		23593D701CDF943D007686E9 /* hankon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D6E1CDF943D007686E9 /* hankon.mp4 */; };
+		23593D711CDF943D007686E9 /* hankon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D6E1CDF943D007686E9 /* hankon.mp4 */; };
+		23593D731CDF9498007686E9 /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D721CDF9498007686E9 /* spotifyVideo.mp4 */; };
+		23593D741CDF9498007686E9 /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D721CDF9498007686E9 /* spotifyVideo.mp4 */; };
+		23593D751CDF9498007686E9 /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D721CDF9498007686E9 /* spotifyVideo.mp4 */; };
+		CF928E36FC2CE357357EC585 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A27F94892E8E8BBA68131B /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15A27F94892E8E8BBA68131B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23593D1E1CDF5824007686E9 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23593D211CDF5824007686E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23593D231CDF5824007686E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +74,18 @@
 		23593D3D1CDF5824007686E9 /* appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23593D411CDF5824007686E9 /* appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appUITests.swift; sourceTree = "<group>"; };
 		23593D431CDF5824007686E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23593D501CDF58CC007686E9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		23593D511CDF58CC007686E9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		23593D5C1CDF5D07007686E9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboard/Login.storyboard; sourceTree = "<group>"; };
+		23593D601CDF5D65007686E9 /* WellcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WellcomeViewController.swift; path = ViewController/WellcomeViewController.swift; sourceTree = "<group>"; };
+		23593D641CDF8631007686E9 /* CustomLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLoginViewController.swift; path = ViewController/CustomLoginViewController.swift; sourceTree = "<group>"; };
+		23593D661CDF9292007686E9 /* cat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.mp4; sourceTree = "<group>"; };
+		23593D671CDF9292007686E9 /* dog.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog.mp4; sourceTree = "<group>"; };
+		23593D6E1CDF943D007686E9 /* hankon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hankon.mp4; sourceTree = "<group>"; };
+		23593D721CDF9498007686E9 /* spotifyVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotifyVideo.mp4; sourceTree = "<group>"; };
+		23593D761CDF95F2007686E9 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Quick.framework; path = "/Users/Ayi/Library/Developer/Xcode/DerivedData/app-epzkvgenhvvikuevpnchfknfrxla/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<absolute>"; };
+		91166CE726EADF5D3AA25B48 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E6929070EFC9D528410237F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23593D551CDF58CC007686E9 /* Parse.framework in Frameworks */,
+				23593D521CDF58CC007686E9 /* Bolts.framework in Frameworks */,
+				CF928E36FC2CE357357EC585 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23593D561CDF58CC007686E9 /* Parse.framework in Frameworks */,
+				23593D531CDF58CC007686E9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23593D571CDF58CC007686E9 /* Parse.framework in Frameworks */,
+				23593D541CDF58CC007686E9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +123,13 @@
 		23593D151CDF5824007686E9 = {
 			isa = PBXGroup;
 			children = (
+				23593D761CDF95F2007686E9 /* Quick.framework */,
 				23593D201CDF5824007686E9 /* app */,
 				23593D351CDF5824007686E9 /* appTests */,
 				23593D401CDF5824007686E9 /* appUITests */,
 				23593D1F1CDF5824007686E9 /* Products */,
+				89BF0A5E7EA9CBE91DBFFF9E /* Pods */,
+				AE47E351F062652BA65A96B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +148,18 @@
 			children = (
 				23593D211CDF5824007686E9 /* AppDelegate.swift */,
 				23593D231CDF5824007686E9 /* ViewController.swift */,
+				23593D601CDF5D65007686E9 /* WellcomeViewController.swift */,
 				23593D251CDF5824007686E9 /* Main.storyboard */,
+				23593D641CDF8631007686E9 /* CustomLoginViewController.swift */,
+				23593D5C1CDF5D07007686E9 /* Login.storyboard */,
 				23593D281CDF5824007686E9 /* Assets.xcassets */,
 				23593D2A1CDF5824007686E9 /* LaunchScreen.storyboard */,
 				23593D2D1CDF5824007686E9 /* Info.plist */,
+				23593D661CDF9292007686E9 /* cat.mp4 */,
+				23593D6E1CDF943D007686E9 /* hankon.mp4 */,
+				23593D721CDF9498007686E9 /* spotifyVideo.mp4 */,
+				23593D671CDF9292007686E9 /* dog.mp4 */,
+				23593D4F1CDF58BC007686E9 /* framework */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -125,6 +182,32 @@
 			path = appUITests;
 			sourceTree = "<group>";
 		};
+		23593D4F1CDF58BC007686E9 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				23593D501CDF58CC007686E9 /* Bolts.framework */,
+				23593D511CDF58CC007686E9 /* Parse.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		89BF0A5E7EA9CBE91DBFFF9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91166CE726EADF5D3AA25B48 /* Pods.debug.xcconfig */,
+				E6929070EFC9D528410237F3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE47E351F062652BA65A96B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15A27F94892E8E8BBA68131B /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23593D461CDF5824007686E9 /* Build configuration list for PBXNativeTarget "app" */;
 			buildPhases = (
+				38A2D19F1123540707914579 /* Check Pods Manifest.lock */,
 				23593D1A1CDF5824007686E9 /* Sources */,
 				23593D1B1CDF5824007686E9 /* Frameworks */,
 				23593D1C1CDF5824007686E9 /* Resources */,
+				12E462797B99C6C37DC4F9F2 /* Embed Pods Frameworks */,
+				CE80BB2373B967473E1224FA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +279,7 @@
 				TargetAttributes = {
 					23593D1D1CDF5824007686E9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8LJ7V3WEL3;
 					};
 					23593D311CDF5824007686E9 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,9 +316,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23593D6B1CDF9292007686E9 /* dog.mp4 in Resources */,
+				23593D5D1CDF5D07007686E9 /* Login.storyboard in Resources */,
 				23593D2C1CDF5824007686E9 /* LaunchScreen.storyboard in Resources */,
+				23593D6F1CDF943D007686E9 /* hankon.mp4 in Resources */,
+				23593D731CDF9498007686E9 /* spotifyVideo.mp4 in Resources */,
 				23593D291CDF5824007686E9 /* Assets.xcassets in Resources */,
 				23593D271CDF5824007686E9 /* Main.storyboard in Resources */,
+				23593D681CDF9292007686E9 /* cat.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +331,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23593D701CDF943D007686E9 /* hankon.mp4 in Resources */,
+				23593D6C1CDF9292007686E9 /* dog.mp4 in Resources */,
+				23593D691CDF9292007686E9 /* cat.mp4 in Resources */,
+				23593D5E1CDF5D07007686E9 /* Login.storyboard in Resources */,
+				23593D741CDF9498007686E9 /* spotifyVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +343,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23593D711CDF943D007686E9 /* hankon.mp4 in Resources */,
+				23593D6D1CDF9292007686E9 /* dog.mp4 in Resources */,
+				23593D6A1CDF9292007686E9 /* cat.mp4 in Resources */,
+				23593D5F1CDF5D07007686E9 /* Login.storyboard in Resources */,
+				23593D751CDF9498007686E9 /* spotifyVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12E462797B99C6C37DC4F9F2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38A2D19F1123540707914579 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE80BB2373B967473E1224FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23593D1A1CDF5824007686E9 /* Sources */ = {
@@ -257,6 +407,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				23593D241CDF5824007686E9 /* ViewController.swift in Sources */,
+				23593D651CDF8631007686E9 /* CustomLoginViewController.swift in Sources */,
+				23593D611CDF5D65007686E9 /* WellcomeViewController.swift in Sources */,
 				23593D221CDF5824007686E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23593D621CDF5D65007686E9 /* WellcomeViewController.swift in Sources */,
 				23593D371CDF5824007686E9 /* appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23593D631CDF5D65007686E9 /* WellcomeViewController.swift in Sources */,
 				23593D421CDF5824007686E9 /* appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,8 +551,14 @@
 		};
 		23593D471CDF5824007686E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91166CE726EADF5D3AA25B48 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/app",
+				);
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.petsbook.app;
@@ -408,8 +568,14 @@
 		};
 		23593D481CDF5824007686E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6929070EFC9D528410237F3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/app",
+				);
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.petsbook.app;
@@ -421,6 +587,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/app",
+				);
 				INFOPLIST_FILE = appTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.petsbook.appTests;
@@ -433,6 +603,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/app",
+				);
 				INFOPLIST_FILE = appTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.petsbook.appTests;
@@ -444,6 +618,10 @@
 		23593D4D1CDF5824007686E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/app",
+				);
 				INFOPLIST_FILE = appUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.petsbook.appUITests;
@@ -455,6 +633,10 @@
 		23593D4E1CDF5824007686E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/app",
+				);
 				INFOPLIST_FILE = appUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.petsbook.appUITests;
@@ -482,6 +664,7 @@
 				23593D481CDF5824007686E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23593D491CDF5824007686E9 /* Build configuration list for PBXNativeTarget "appTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +673,7 @@
 				23593D4B1CDF5824007686E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23593D4C1CDF5824007686E9 /* Build configuration list for PBXNativeTarget "appUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +682,7 @@
 				23593D4E1CDF5824007686E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Parse
+import ParseFacebookUtilsV4
+import ParseTwitterUtils
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,9 +18,50 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
+    {
+        // Parse SDK
+        // ****************************************************************************
+        // Parse initialization
+        // FIXME: CrashReporting currently query to cydia://        ParseCrashReporting.enable()
+        Parse.setApplicationId("3saRmgon62p0FYDq2924QZM1S8gKKsFQR11rlfo5", clientKey: "Fkjevt5EvrKZWy8CobQaTvWhmn8F70fP8sR3s5Ud")
+        PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions);
+        PFTwitterUtils.initializeWithConsumerKey("SZ58sIVblPZPzoHqinkeJg", consumerSecret: "ANAUJ6cVZIC6HfFBH7IhGfMYu6xmemb9mZx3IGw")
+        // TODO: V4      PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
+        // ****************************************************************************
+        
+        //IQKeyboardManagerSwift
+        IQKeyboardManager.sharedManager().enable = true
+        
+        if PFUser.currentUser() == nil {
+            /* 使用者還沒登入，使用 framework 裡面的 Login storybaord */
+            if PFUser.currentUser() == nil {
+                let storyboard = UIStoryboard(name: "Login", bundle: nil)
+                window = UIWindow(frame: UIScreen.mainScreen().bounds)
+                window!.rootViewController = UINavigationController(rootViewController: storyboard.instantiateInitialViewController()!)
+                window!.makeKeyAndVisible()
+            }
+        }
+        
+        // Track app open.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        if application.applicationIconBadgeNumber != 0 {
+            application.applicationIconBadgeNumber = 0
+            PFInstallation.currentInstallation().saveInBackground()
+        }
+        
+        let defaultACL: PFACL = PFACL()
+        // Enable public read access by default, with any newly created PFObjects belonging to the current user
+        defaultACL.publicReadAccess = true
+        PFACL.setDefaultACL(defaultACL, withAccessForCurrentUser: true)
+        
         // Override point for customization after application launch.
         return true
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+        return FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
     }
 
     func applicationWillResignActive(application: UIApplication) {
@@ -35,6 +80,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
     }
 
     func applicationWillTerminate(application: UIApplication) {
