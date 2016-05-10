@@ -24,12 +24,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // ****************************************************************************
         // Parse initialization
         // FIXME: CrashReporting currently query to cydia://        ParseCrashReporting.enable()
-        Parse.setApplicationId("3saRmgon62p0FYDq2924QZM1S8gKKsFQR11rlfo5", clientKey: "Fkjevt5EvrKZWy8CobQaTvWhmn8F70fP8sR3s5Ud")
+        Parse.setApplicationId("cAUrbKXQ8qfg59UhwAMS8C4H2L4t5hbNlHdI0Qbu", clientKey: "HrV7aLUT9U7DOPFluSejMSOiyB6tFsjGIkJqeQyZ")
         PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions);
         PFTwitterUtils.initializeWithConsumerKey("SZ58sIVblPZPzoHqinkeJg", consumerSecret: "ANAUJ6cVZIC6HfFBH7IhGfMYu6xmemb9mZx3IGw")
         // TODO: V4      PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
         // ****************************************************************************
         
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         //IQKeyboardManagerSwift
 //        IQKeyboardManager.sharedManager().enable = true
         
@@ -80,7 +81,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-        
+        FBSDKAppEvents.activateApp()
     }
 
     func applicationWillTerminate(application: UIApplication) {
