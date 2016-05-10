@@ -54,11 +54,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Quick.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>VideoBackgroundViewController-VideoBackgroundViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -72,37 +67,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>32F3ED22CD08DC7209DB8B5036A43CD2</key>
+		<key>1C21AEC27AF0B582D426BFB1BFED2414</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>512143D67899B837670A1B595FEB15D4</key>
+		<key>2C83079FFA43B3B924BE3731D22530C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>608D95D38799B2DC08DDB92A5762A0DC</key>
+		<key>2E6C322EB33CFF12099E02A18BE4DCC7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>70870720DD576BAEE0AFBE2A470AAF05</key>
+		<key>7579B0BC4D84890D588A6BEBFB82BABC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9A20C2C3A1A3F0857B6AC540709A2BFD</key>
+		<key>8D99240C1C51FA8330428E223E9699EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9D75ED47E5B80FF267BC9EF42D85BCFA</key>
+		<key>96EEDA24D436F275C12B3EDEE984BDD8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A24326276F50AEADDE89D5EC04BB7EE4</key>
+		<key>98CAFCB822676CF6915C44F1AD1FCB3F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,7 +107,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C3F93ADB759E99B9291BBBA54251D719</key>
+		<key>B3CED1CAA67CA78F927088908FD8E8F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -122,17 +117,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C97C3BA98AD66B6F4856925A0B8543E6</key>
+		<key>D117EAB13DD6A6CE0C58CBC669B1603D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CDB8481E62D11D93D5D1A603B2E3C82F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E0586D1C39246BBE802846858E121AB1</key>
+		<key>F92B980F143EAD7099E1B1A2D776EF7E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

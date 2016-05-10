@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Wellcome View Controller-->
@@ -13,10 +14,56 @@
                         <viewControllerLayoutGuide type="top" id="vQz-dE-scn"/>
                         <viewControllerLayoutGuide type="bottom" id="maP-Ia-ne3"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="MYP-FR-VUA">
+                    <view key="view" contentMode="scaleToFill" id="Anw-ez-CJD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gC2-nR-6se">
+                                <rect key="frame" x="0.0" y="555" width="600" height="45"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8U-DM-K4f">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="45"/>
+                                        <color key="backgroundColor" red="0.086274509799999996" green="0.090196078430000007" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                        <state key="normal" title="LOG IN">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginButtonPressed:" destination="0x9-lf-18Z" eventType="touchUpInside" id="qHG-jL-3vb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0V-Rg-9rr">
+                                        <rect key="frame" x="300" y="0.0" width="300" height="45"/>
+                                        <color key="backgroundColor" red="0.34509803919999998" green="0.71764705880000002" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                        <state key="normal" title="SIGN UP">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="signupButtonPressed:" destination="0x9-lf-18Z" eventType="touchUpInside" id="d5h-v0-ymv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="pEk-Nr-6Lo"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spotify_logo" translatesAutoresizingMaskIntoConstraints="NO" id="1FA-cN-HIm">
+                                <rect key="frame" x="180" y="63" width="240" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="W0P-oh-nTD"/>
+                                    <constraint firstAttribute="height" constant="84" id="l8T-yZ-T6b"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.086274509799999996" green="0.090196078430000007" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="maP-Ia-ne3" firstAttribute="top" secondItem="gC2-nR-6se" secondAttribute="bottom" id="6R6-l3-fGg"/>
+                            <constraint firstItem="1FA-cN-HIm" firstAttribute="centerX" secondItem="Anw-ez-CJD" secondAttribute="centerX" id="6ix-BR-G0D"/>
+                            <constraint firstItem="gC2-nR-6se" firstAttribute="leading" secondItem="Anw-ez-CJD" secondAttribute="leadingMargin" constant="-20" id="A5q-vb-8tU"/>
+                            <constraint firstItem="1FA-cN-HIm" firstAttribute="top" secondItem="vQz-dE-scn" secondAttribute="bottom" constant="43" id="DGP-6W-J3a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gC2-nR-6se" secondAttribute="trailing" constant="-20" id="ZXX-hA-j3q"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XoQ-50-G5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +71,7 @@
             <point key="canvasLocation" x="316" y="472"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="spotify_logo" width="218" height="66"/>
+    </resources>
 </document>

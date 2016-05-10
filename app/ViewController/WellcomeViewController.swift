@@ -7,40 +7,84 @@
 //
 
 import UIKit
+import VideoBackgroundViewController
 import Parse
 import ParseUI
-import VideoBackgroundViewController
 
-class WellcomeViewController: VideoBackgroundViewController, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate {
+class WellcomeViewController: VideoBackgroundViewController {
 
+    var i = false
+    var timer = NSTimer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
-        
-        let url = NSURL.fileURLWithPath(NSBundle.mainBundle().pathForResource("spotifyVideo", ofType: "mp4")!)
-        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        setVideo()
+        timer = NSTimer.scheduledTimerWithTimeInterval(8, target: self, selector: #selector(WellcomeViewController.setVideo), userInfo: nil, repeats: true)
+    }
+    
+    func setVideo()
+    {
+        var url:NSURL
+        if i == false {
+            url = NSURL.fileURLWithPath(NSBundle.mainBundle().pathForResource("cat", ofType: "mp4")!)
+            i = true
+        } else {
+            url = NSURL.fileURLWithPath(NSBundle.mainBundle().pathForResource("dog", ofType: "mp4")!)
+            i = false
+        }
         self.videoURL = url
     }
     
-    override func viewDidAppear(animated: Bool) {
-//        if PFUser.currentUser() == nil {
-//            let logInViewController = CustomLoginViewController()
-//            logInViewController.delegate = self
-//            logInViewController.fields = [.UsernameAndPassword, .PasswordForgotten, .LogInButton, .Facebook, .Twitter, .SignUpButton, .DismissButton]
-//            if let signUpController = logInViewController.signUpController {
-//                signUpController.delegate = self
-//                signUpController.fields = [.UsernameAndPassword, .Email, .Additional, .SignUpButton, .DismissButton]
-//            }
-//            presentViewController(logInViewController, animated: true, completion: nil)
-//        }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillDisappear(animated: Bool) {
+        timer.invalidate()
     }
     
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+    }
+    
+    @IBAction func loginButtonPressed(sender: AnyObject) {
+        
+        let logInViewController = MyLogInViewController()
+        logInViewController.delegate = self
+        logInViewController.fields = [.UsernameAndPassword, .PasswordForgotten, .LogInButton, .Facebook, .Twitter, .SignUpButton, .DismissButton]
+        if let signUpController = logInViewController.signUpController {
+            signUpController.delegate = self
+            signUpController.fields = [.UsernameAndPassword, .Email, .Additional, .SignUpButton, .DismissButton]
+        }
+        presentViewController(logInViewController, animated: true, completion: nil)
+    }
+
+    @IBAction func signupButtonPressed(sender: AnyObject) {
+        let signUpController = MySignUpViewController()
+        signUpController.delegate = self
+        signUpController.fields = [.UsernameAndPassword, .Email, .Additional, .SignUpButton, .DismissButton]
+        presentViewController(signUpController, animated: true, completion: nil)
+    }
+    
+    // MARK: - Login Delegate
+    
+    func logInViewControllerDidCancelLogIn(logInController: PFLogInViewController) {
+        
+    }
+    
+    func logInViewController(logInController: PFLogInViewController, didFailToLogInWithError error: NSError?) {
+        
+    }
+    
+    // MARK: - Signup Delegate
+    
+    func signUpViewControllerDidCancelSignUp(signUpController: PFSignUpViewController) {
+        
+    }
+    
+    func signUpViewController(signUpController: PFSignUpViewController, didFailToSignUpWithError error: NSError?) {
+        
+    }
     
     /*
     // MARK: - Navigation
@@ -52,4 +96,23 @@ class WellcomeViewController: VideoBackgroundViewController, PFLogInViewControll
     }
     */
 
+}
+
+
+extension WellcomeViewController : PFLogInViewControllerDelegate {
+    
+    func logInViewController(logInController: PFLogInViewController, didLogInUser user: PFUser) {
+        //轉場至首頁
+        (UIApplication.sharedApplication().delegate as! AppDelegate).presentToHome()
+    }
+    
+}
+
+extension WellcomeViewController : PFSignUpViewControllerDelegate {
+    
+    func signUpViewController(signUpController: PFSignUpViewController, didSignUpUser user: PFUser) {
+        //註冊成功，轉場至首頁
+        (UIApplication.sharedApplication().delegate as! AppDelegate).presentToHome()
+    }
+    
 }

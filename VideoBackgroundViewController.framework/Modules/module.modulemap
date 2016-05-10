@@ -1,0 +1,10 @@
+framework module VideoBackgroundViewController {
+  umbrella header "VideoBackgroundViewController.h"
+
+  export *
+  module * { export * }
+}
+
+module VideoBackgroundViewController.Swift {
+    header "VideoBackgroundViewController-Swift.h"
+}

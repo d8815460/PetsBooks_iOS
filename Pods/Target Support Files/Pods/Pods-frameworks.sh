@@ -61,7 +61,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods/ParseFacebookUtilsV4.framework'
   install_framework 'Pods/ParseTwitterUtils.framework'
   install_framework 'Pods/ParseUI.framework'
-  install_framework 'Pods/Quick.framework'
   install_framework 'Pods/VideoBackgroundViewController.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -74,6 +73,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods/ParseFacebookUtilsV4.framework'
   install_framework 'Pods/ParseTwitterUtils.framework'
   install_framework 'Pods/ParseUI.framework'
-  install_framework 'Pods/Quick.framework'
   install_framework 'Pods/VideoBackgroundViewController.framework'
 fi

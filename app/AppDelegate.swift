@@ -31,14 +31,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // ****************************************************************************
         
         //IQKeyboardManagerSwift
-        IQKeyboardManager.sharedManager().enable = true
+//        IQKeyboardManager.sharedManager().enable = true
         
         if PFUser.currentUser() == nil {
             /* 使用者還沒登入，使用 framework 裡面的 Login storybaord */
             if PFUser.currentUser() == nil {
                 let storyboard = UIStoryboard(name: "Login", bundle: nil)
                 window = UIWindow(frame: UIScreen.mainScreen().bounds)
-                window!.rootViewController = UINavigationController(rootViewController: storyboard.instantiateInitialViewController()!)
+                window!.rootViewController = storyboard.instantiateInitialViewController()!
                 window!.makeKeyAndVisible()
             }
         }
@@ -87,6 +87,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    // MARK: - 返回首頁
+    func presentToHome() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window!.rootViewController = storyboard.instantiateInitialViewController()!
+        window!.makeKeyAndVisible()
+    }
 }
 

@@ -26,7 +26,6 @@
 		23593D611CDF5D65007686E9 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D601CDF5D65007686E9 /* WellcomeViewController.swift */; };
 		23593D621CDF5D65007686E9 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D601CDF5D65007686E9 /* WellcomeViewController.swift */; };
 		23593D631CDF5D65007686E9 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D601CDF5D65007686E9 /* WellcomeViewController.swift */; };
-		23593D651CDF8631007686E9 /* CustomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D641CDF8631007686E9 /* CustomLoginViewController.swift */; };
 		23593D681CDF9292007686E9 /* cat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D661CDF9292007686E9 /* cat.mp4 */; };
 		23593D691CDF9292007686E9 /* cat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D661CDF9292007686E9 /* cat.mp4 */; };
 		23593D6A1CDF9292007686E9 /* cat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D661CDF9292007686E9 /* cat.mp4 */; };
@@ -36,6 +35,11 @@
 		23593D731CDF9498007686E9 /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D721CDF9498007686E9 /* spotifyVideo.mp4 */; };
 		23593D741CDF9498007686E9 /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D721CDF9498007686E9 /* spotifyVideo.mp4 */; };
 		23593D751CDF9498007686E9 /* spotifyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 23593D721CDF9498007686E9 /* spotifyVideo.mp4 */; };
+		237FD8C41CE0D67700C82E0E /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237FD8C31CE0D67700C82E0E /* VideoBackgroundViewController.framework */; };
+		237FD8C51CE0D67700C82E0E /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237FD8C31CE0D67700C82E0E /* VideoBackgroundViewController.framework */; };
+		237FD8C61CE0D67700C82E0E /* VideoBackgroundViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237FD8C31CE0D67700C82E0E /* VideoBackgroundViewController.framework */; };
+		237FD8C81CE0E79300C82E0E /* MyLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FD8C71CE0E79300C82E0E /* MyLogInViewController.swift */; };
+		237FD8CA1CE0E8BE00C82E0E /* MySignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FD8C91CE0E8BE00C82E0E /* MySignUpViewController.swift */; };
 		CF928E36FC2CE357357EC585 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A27F94892E8E8BBA68131B /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -75,11 +79,12 @@
 		23593D511CDF58CC007686E9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		23593D5C1CDF5D07007686E9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboard/Login.storyboard; sourceTree = "<group>"; };
 		23593D601CDF5D65007686E9 /* WellcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WellcomeViewController.swift; path = ViewController/WellcomeViewController.swift; sourceTree = "<group>"; };
-		23593D641CDF8631007686E9 /* CustomLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLoginViewController.swift; path = ViewController/CustomLoginViewController.swift; sourceTree = "<group>"; };
 		23593D661CDF9292007686E9 /* cat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.mp4; sourceTree = "<group>"; };
 		23593D671CDF9292007686E9 /* dog.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog.mp4; sourceTree = "<group>"; };
 		23593D721CDF9498007686E9 /* spotifyVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotifyVideo.mp4; sourceTree = "<group>"; };
-		23593D761CDF95F2007686E9 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Quick.framework; path = "/Users/Ayi/Library/Developer/Xcode/DerivedData/app-epzkvgenhvvikuevpnchfknfrxla/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<absolute>"; };
+		237FD8C31CE0D67700C82E0E /* VideoBackgroundViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VideoBackgroundViewController.framework; sourceTree = "<group>"; };
+		237FD8C71CE0E79300C82E0E /* MyLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLogInViewController.swift; sourceTree = "<group>"; };
+		237FD8C91CE0E8BE00C82E0E /* MySignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySignUpViewController.swift; sourceTree = "<group>"; };
 		91166CE726EADF5D3AA25B48 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E6929070EFC9D528410237F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23593D551CDF58CC007686E9 /* Parse.framework in Frameworks */,
+				237FD8C41CE0D67700C82E0E /* VideoBackgroundViewController.framework in Frameworks */,
 				23593D521CDF58CC007686E9 /* Bolts.framework in Frameworks */,
 				CF928E36FC2CE357357EC585 /* Pods.framework in Frameworks */,
 			);
@@ -100,6 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23593D561CDF58CC007686E9 /* Parse.framework in Frameworks */,
+				237FD8C51CE0D67700C82E0E /* VideoBackgroundViewController.framework in Frameworks */,
 				23593D531CDF58CC007686E9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23593D571CDF58CC007686E9 /* Parse.framework in Frameworks */,
+				237FD8C61CE0D67700C82E0E /* VideoBackgroundViewController.framework in Frameworks */,
 				23593D541CDF58CC007686E9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,7 +127,6 @@
 		23593D151CDF5824007686E9 = {
 			isa = PBXGroup;
 			children = (
-				23593D761CDF95F2007686E9 /* Quick.framework */,
 				23593D201CDF5824007686E9 /* app */,
 				23593D351CDF5824007686E9 /* appTests */,
 				23593D401CDF5824007686E9 /* appUITests */,
@@ -145,8 +152,9 @@
 				23593D211CDF5824007686E9 /* AppDelegate.swift */,
 				23593D231CDF5824007686E9 /* ViewController.swift */,
 				23593D601CDF5D65007686E9 /* WellcomeViewController.swift */,
+				237FD8C71CE0E79300C82E0E /* MyLogInViewController.swift */,
+				237FD8C91CE0E8BE00C82E0E /* MySignUpViewController.swift */,
 				23593D251CDF5824007686E9 /* Main.storyboard */,
-				23593D641CDF8631007686E9 /* CustomLoginViewController.swift */,
 				23593D5C1CDF5D07007686E9 /* Login.storyboard */,
 				23593D281CDF5824007686E9 /* Assets.xcassets */,
 				23593D2A1CDF5824007686E9 /* LaunchScreen.storyboard */,
@@ -198,6 +206,7 @@
 		AE47E351F062652BA65A96B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				237FD8C31CE0D67700C82E0E /* VideoBackgroundViewController.framework */,
 				15A27F94892E8E8BBA68131B /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -398,8 +407,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237FD8C81CE0E79300C82E0E /* MyLogInViewController.swift in Sources */,
+				237FD8CA1CE0E8BE00C82E0E /* MySignUpViewController.swift in Sources */,
 				23593D241CDF5824007686E9 /* ViewController.swift in Sources */,
-				23593D651CDF8631007686E9 /* CustomLoginViewController.swift in Sources */,
 				23593D611CDF5D65007686E9 /* WellcomeViewController.swift in Sources */,
 				23593D221CDF5824007686E9 /* AppDelegate.swift in Sources */,
 			);
@@ -547,9 +557,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/app",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -564,9 +576,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/app",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -582,6 +596,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/app",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = appTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -598,6 +613,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/app",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = appTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -613,6 +629,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/app",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = appUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -628,6 +645,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/app",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = appUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
