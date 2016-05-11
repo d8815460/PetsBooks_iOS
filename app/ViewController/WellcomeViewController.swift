@@ -15,6 +15,7 @@ class WellcomeViewController: VideoBackgroundViewController {
 
     var i = false
     var timer = NSTimer()
+    private var _presentedLoginViewController: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -84,6 +85,19 @@ class WellcomeViewController: VideoBackgroundViewController {
     
     func signUpViewController(signUpController: PFSignUpViewController, didFailToSignUpWithError error: NSError?) {
         
+    }
+    
+    // MARK:- PAPWelcomeViewController
+    
+    func presentLoginViewController(animated: Bool) {
+        if _presentedLoginViewController {
+            return
+        }
+        
+        _presentedLoginViewController = true
+        let loginViewController = MyLogInViewController()
+        loginViewController.delegate = self
+        presentViewController(loginViewController, animated: animated, completion: nil)
     }
     
     /*

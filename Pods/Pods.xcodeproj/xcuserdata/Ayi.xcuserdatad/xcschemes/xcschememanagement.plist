@@ -54,6 +54,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UIImageAFAdditions.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIImageEffects.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>VideoBackgroundViewController-VideoBackgroundViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,62 +77,72 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0EB19C1377A747F81110D44E2D5FCF78</key>
+		<key>160ADEDD495F9AF2CA01453A9BDBFEF8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>124BA04F2E4A4F5C8CDAA39DB6C7F903</key>
+		<key>22C658880007ABE7CA0C805F9A5F4ECE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1520003FEBEC114D6C84F832AFEDB994</key>
+		<key>3279ED81411F29B9FBD52AB1D92F6A49</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2C8AA1BAF35413BDB954A1DF93576ED1</key>
+		<key>4BF369025387497A2483C0B044C86306</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>52D82BFDD1E808D9CB257431922C1EE4</key>
+		<key>5A13DEF1C5231A146824E0FEB3E842AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>546F164D8176593F675AD62ABF5DF1E9</key>
+		<key>689B2DCCA26A50F6E4D0C9012358D4C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6EDC37F3FA92533C6AC3562458AA91F1</key>
+		<key>760D8026864D07E01036FED2FB2E702E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78B6493CDA5701976121C32A3C9AB5DE</key>
+		<key>AC6F7A893C93291F67CE7EAC77418C71</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8978C7FB7007A28B676AB1EA004C3923</key>
+		<key>BA07F00A5D1EF05A0BA77A90DB80BFB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E1F78B1C5F8F2CCD0E68552EAF2B9B52</key>
+		<key>C84F639563A93C299EE6F6A9733547C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E61CE3B6DFA1FE6B3E296965C76C0E10</key>
+		<key>E082A3D7A644F22725CB1198013DC7F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E9B883950F6F1CB3C0E3EB3DBE577D9A</key>
+		<key>E32AFB841AC1B58EECB9254418D19312</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F93511E05D2933D1682DCB7CEBA2F2AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFFD7BFDEB3B41CC96A5F7487AC2DDFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -11,4 +11,6 @@ target 'app' do
     pod 'ParseFacebookUtilsV4', '~> 1.11'
     pod 'ParseTwitterUtils', '~> 1.10'
     pod 'VideoBackgroundViewController', '~> 0.0'
+    pod 'UIImageEffects', '~> 0.0.1'
+    pod 'UIImageAFAdditions', :git => 'https://github.com/teklabs/UIImageAFAdditions.git'
 end

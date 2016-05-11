@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2335E9EA1CE2085A003E815B /* PAPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E61CE2085A003E815B /* PAPConstants.swift */; };
+		2335E9EB1CE2085A003E815B /* PAPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E61CE2085A003E815B /* PAPConstants.swift */; };
+		2335E9EC1CE2085A003E815B /* PAPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E61CE2085A003E815B /* PAPConstants.swift */; };
+		2335E9ED1CE2085A003E815B /* PAPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E71CE2085A003E815B /* PAPUtility.swift */; };
+		2335E9EE1CE2085A003E815B /* PAPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E71CE2085A003E815B /* PAPUtility.swift */; };
+		2335E9EF1CE2085A003E815B /* PAPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E71CE2085A003E815B /* PAPUtility.swift */; };
+		2335E9F01CE2085A003E815B /* PAPCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E81CE2085A003E815B /* PAPCache.swift */; };
+		2335E9F11CE2085A003E815B /* PAPCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E81CE2085A003E815B /* PAPCache.swift */; };
+		2335E9F21CE2085A003E815B /* PAPCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E81CE2085A003E815B /* PAPCache.swift */; };
+		2335E9F31CE2085A003E815B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E91CE2085A003E815B /* Reachability.swift */; };
+		2335E9F41CE2085A003E815B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E91CE2085A003E815B /* Reachability.swift */; };
+		2335E9F51CE2085A003E815B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335E9E91CE2085A003E815B /* Reachability.swift */; };
 		234D7DF71CE185F5004D06BE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D7DF61CE185F5004D06BE /* Accounts.framework */; };
 		234D7DF91CE185FF004D06BE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D7DF81CE185FF004D06BE /* Social.framework */; };
 		23593D221CDF5824007686E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23593D211CDF5824007686E9 /* AppDelegate.swift */; };
@@ -109,6 +121,10 @@
 
 /* Begin PBXFileReference section */
 		15A27F94892E8E8BBA68131B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2335E9E61CE2085A003E815B /* PAPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPConstants.swift; sourceTree = "<group>"; };
+		2335E9E71CE2085A003E815B /* PAPUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPUtility.swift; sourceTree = "<group>"; };
+		2335E9E81CE2085A003E815B /* PAPCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAPCache.swift; sourceTree = "<group>"; };
+		2335E9E91CE2085A003E815B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		234D7DF61CE185F5004D06BE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		234D7DF81CE185FF004D06BE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		23593D1E1CDF5824007686E9 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,6 +251,10 @@
 				23593D251CDF5824007686E9 /* Main.storyboard */,
 				23DF39C01CE1C5F200395140 /* MegaTheme.swift */,
 				23593D5C1CDF5D07007686E9 /* Login.storyboard */,
+				2335E9E61CE2085A003E815B /* PAPConstants.swift */,
+				2335E9E71CE2085A003E815B /* PAPUtility.swift */,
+				2335E9E81CE2085A003E815B /* PAPCache.swift */,
+				2335E9E91CE2085A003E815B /* Reachability.swift */,
 				23593D281CDF5824007686E9 /* Assets.xcassets */,
 				23593D2A1CDF5824007686E9 /* LaunchScreen.storyboard */,
 				23593D2D1CDF5824007686E9 /* Info.plist */,
@@ -580,6 +600,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				237FD8C81CE0E79300C82E0E /* MyLogInViewController.swift in Sources */,
+				2335E9EA1CE2085A003E815B /* PAPConstants.swift in Sources */,
 				23DF39BD1CE1C5A100395140 /* JBLineChartView.m in Sources */,
 				23DF39DF1CE1C66F00395140 /* ADVAnimatedButton.swift in Sources */,
 				23DF39B71CE1C5A100395140 /* JBBarChartView.m in Sources */,
@@ -590,7 +611,9 @@
 				23DF39B11CE1C5A100395140 /* ANDInternalLineChartView.m in Sources */,
 				23DF39D71CE1C65F00395140 /* ADVProgressLayer.swift in Sources */,
 				23DF39BA1CE1C5A100395140 /* JBChartView.m in Sources */,
+				2335E9ED1CE2085A003E815B /* PAPUtility.swift in Sources */,
 				237FD8CA1CE0E8BE00C82E0E /* MySignUpViewController.swift in Sources */,
+				2335E9F01CE2085A003E815B /* PAPCache.swift in Sources */,
 				23DF39B41CE1C5A100395140 /* ANDLineChartView.m in Sources */,
 				23593D241CDF5824007686E9 /* ViewController.swift in Sources */,
 				23DF39CF1CE1C65900395140 /* ADVSegmentedControl.swift in Sources */,
@@ -599,6 +622,7 @@
 				23DF39C11CE1C5F200395140 /* MegaTheme.swift in Sources */,
 				23DF39E31CE1C76000395140 /* PictureListViewController.swift in Sources */,
 				23DF39901CE1B00400395140 /* BarChartController.swift in Sources */,
+				2335E9F31CE2085A003E815B /* Reachability.swift in Sources */,
 				23593D221CDF5824007686E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -607,7 +631,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2335E9EE1CE2085A003E815B /* PAPUtility.swift in Sources */,
 				23DF39B81CE1C5A100395140 /* JBBarChartView.m in Sources */,
+				2335E9F11CE2085A003E815B /* PAPCache.swift in Sources */,
 				23DF39DC1CE1C66900395140 /* ADVGradientButton.swift in Sources */,
 				23DF39BE1CE1C5A100395140 /* JBLineChartView.m in Sources */,
 				23DF39BB1CE1C5A100395140 /* JBChartView.m in Sources */,
@@ -623,6 +649,8 @@
 				23DF39E01CE1C66F00395140 /* ADVAnimatedButton.swift in Sources */,
 				23DF39E81CE1C7BA00395140 /* PictureCell.swift in Sources */,
 				23DF39911CE1B00400395140 /* BarChartController.swift in Sources */,
+				2335E9F41CE2085A003E815B /* Reachability.swift in Sources */,
+				2335E9EB1CE2085A003E815B /* PAPConstants.swift in Sources */,
 				23593D371CDF5824007686E9 /* appTests.swift in Sources */,
 				23DF39AF1CE1C5A100395140 /* ANDBackgroundChartView.m in Sources */,
 			);
@@ -632,7 +660,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2335E9EF1CE2085A003E815B /* PAPUtility.swift in Sources */,
 				23DF39B91CE1C5A100395140 /* JBBarChartView.m in Sources */,
+				2335E9F21CE2085A003E815B /* PAPCache.swift in Sources */,
 				23DF39DD1CE1C66900395140 /* ADVGradientButton.swift in Sources */,
 				23DF39BF1CE1C5A100395140 /* JBLineChartView.m in Sources */,
 				23DF39BC1CE1C5A100395140 /* JBChartView.m in Sources */,
@@ -648,6 +678,8 @@
 				23DF39E11CE1C66F00395140 /* ADVAnimatedButton.swift in Sources */,
 				23DF39E91CE1C7BA00395140 /* PictureCell.swift in Sources */,
 				23DF39921CE1B00400395140 /* BarChartController.swift in Sources */,
+				2335E9F51CE2085A003E815B /* Reachability.swift in Sources */,
+				2335E9EC1CE2085A003E815B /* PAPConstants.swift in Sources */,
 				23593D421CDF5824007686E9 /* appUITests.swift in Sources */,
 				23DF39B01CE1C5A100395140 /* ANDBackgroundChartView.m in Sources */,
 			);

@@ -25,6 +25,8 @@ PODS:
   - ParseUI (1.2.0):
     - Bolts/Tasks (~> 1.3)
     - Parse (~> 1.9)
+  - UIImageAFAdditions (0.1)
+  - UIImageEffects (0.0.1)
   - VideoBackgroundViewController (0.0.3)
 
 DEPENDENCIES:
@@ -33,7 +35,18 @@ DEPENDENCIES:
   - ParseFacebookUtilsV4 (~> 1.11)
   - ParseTwitterUtils (~> 1.10)
   - ParseUI (~> 1.2.0)
+  - UIImageAFAdditions (from `https://github.com/teklabs/UIImageAFAdditions.git`)
+  - UIImageEffects (~> 0.0.1)
   - VideoBackgroundViewController (~> 0.0)
+
+EXTERNAL SOURCES:
+  UIImageAFAdditions:
+    :git: https://github.com/teklabs/UIImageAFAdditions.git
+
+CHECKOUT OPTIONS:
+  UIImageAFAdditions:
+    :commit: bd07487284ad76e611fcdcd6401ae409a1d9a1fd
+    :git: https://github.com/teklabs/UIImageAFAdditions.git
 
 SPEC CHECKSUMS:
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
@@ -45,8 +58,8 @@ SPEC CHECKSUMS:
   ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
   ParseTwitterUtils: 8856ac80da50bbb0f0bcf251def20b62e1ae6bc4
   ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
+  UIImageAFAdditions: bdb543889f97aea5cc9a8d0c985c03bb8b4ceb96
+  UIImageEffects: 37b99fa461e4965f332ca82e92f2c22a1075ee84
   VideoBackgroundViewController: 6dcff0d645d00463e9a20b09e965ef89a3a87604
 
-PODFILE CHECKSUM: 7e9fa83c33ba29e5cd74a99c8e1743f8819d6451
-
-COCOAPODS: 1.0.0.beta.6
+COCOAPODS: 0.38.2
